@@ -7,7 +7,7 @@ function Navbar() {
         <div class="container">
           <div class="flex items-center justify-between h-20 relative">
             <div className="mb-4">
-              <h1 className="w- text-3xl font-bold text-[#00df9a] mt-4">
+              <h1 className=" text-3xl font-bold text-[#00df9a] mt-4">
                 BanSound
               </h1>
             </div>

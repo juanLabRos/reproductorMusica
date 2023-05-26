@@ -15,7 +15,7 @@ export default function Friends(nombre, cancion, artista, estado) {
   estado = ":)";
   return (
     <>
-      <div className="contenedor border border-white rounded">
+      <div className="contenedor border rounded">
         <h1 className="ml-5 mb-3 text-3xl font-bold text-[#00df9a] mt-4">
           Amigos
         </h1>

@@ -1,21 +1,22 @@
 import React from "react";
 import "../Friends.css";
 
-/* Esto es una funcion para poder ver a mis amigos. Cada amigo tiene:
+/* Esto es una función para poder ver a mis amigos. Cada amigo tiene:
  * Foto perfil
  * Nombre
- * Cancion que esta escuchando
+ * Cancion que está escuchando
  * Icono de conectado o desconectado
  * Todos estos datos se deben de guardar dentro de cards
  */
-export default function Friends(nombre, cancion, artista, estado) {
-  nombre = "Pepe";
-  cancion = "Who Loves The Sun";
-  artista = "The Velvet Urderground";
-  estado = ":)";
+export default function Friends() {
+  const nombre = "Pepe";
+  const cancion = "Who Loves The Sun";
+  const artista = "The Velvet Underground";
+  const estado = ":)";
+
   return (
     <>
-      <div className="contenedor border rounded">
+      <div className="contenedor">
         <h1 className="ml-5 mb-3 text-3xl font-bold text-[#00df9a] mt-4">
           Amigos
         </h1>

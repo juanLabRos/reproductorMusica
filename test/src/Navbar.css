@@ -8,4 +8,6 @@
 .hover-effect:hover {
   transform: translateY(-5px);
 }
-
+.contenedor-elementos{
+  margin-right: -300px;
+}
